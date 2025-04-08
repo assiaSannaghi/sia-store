@@ -1,5 +1,5 @@
 import Button from "../ui/Button";
-import RatingStars from "./RatingStars";
+import RatingStars from "../ui/RatingStars";
 import { useCart } from "../../contexts/CartContext";
 // import { useCallback } from "react";
 

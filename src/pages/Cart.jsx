@@ -1,5 +1,5 @@
-import CartItems from "../components/CartItems";
-import EmptyCart from "../components/EmptyCart";
+import CartItems from "../components/cart/CartItems";
+import EmptyCart from "../components/cart/EmptyCart";
 import { useCart } from "../contexts/CartContext";
 
 function Cart() {

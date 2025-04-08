@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 import { BsCart2 } from "react-icons/bs";
 
-import SearchBar from "../SearchBar";
+import SearchBar from "../ui/SearchBar";
 import { useCart } from "../../contexts/CartContext";
 
 function NavBar() {

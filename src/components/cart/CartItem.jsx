@@ -1,6 +1,6 @@
 import { BsTrash } from "react-icons/bs";
 import { useCart } from "../../contexts/CartContext";
-import QuantityControl from "../QuantityControl";
+import QuantityControl from "../ui/QuantityControl";
 
 function CartItem({ image, category, title, price, item, quantity }) {
   const { handleRemovefromCart } = useCart();

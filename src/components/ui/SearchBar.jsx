@@ -1,6 +1,6 @@
 import { BsSearch } from "react-icons/bs";
 
-import { useCart } from "../contexts/CartContext";
+import { useCart } from "../../contexts/CartContext";
 
 function SearchBar() {
   const { searchTerm, setSearchTerm } = useCart();

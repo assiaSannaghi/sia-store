@@ -1,6 +1,6 @@
 import { useCart } from "../../contexts/CartContext";
 import Button from "../ui/Button";
-import RatingStars from "./RatingStars";
+import RatingStars from "../ui/RatingStars";
 
 function Details({
   image,

@@ -1,7 +1,7 @@
 import { BiErrorCircle } from "react-icons/bi";
 import { useParams } from "react-router";
 import Button from "../components/ui/Button";
-import Details from "../components/Details";
+import Details from "../components/products/Details";
 import Spinner from "../components/ui/Spinner";
 import useProduct from "../hooks/useProduct";
 
